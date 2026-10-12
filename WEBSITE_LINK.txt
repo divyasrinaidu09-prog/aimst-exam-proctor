@@ -1,0 +1,65 @@
+========================================================================
+AIMST UNIVERSITY - INTELLIGENT ONLINE EXAM PROCTORING SYSTEM
+Final Year Project (FYP) - BSc. (Hons) Management Information Systems
+Faculty of Allied Health & Information Technology
+========================================================================
+
+PROJECT FOLDER LOCATION:
+------------------------------------------------------------------------
+C:\Users\Admin\Documents\FYP 2026 online exam proctoring system
+
+
+HOW TO ACCESS THE SYSTEM FROM ANY DEVICE:
+------------------------------------------------------------------------
+
+1. ON THIS COMPUTER (Localhost):
+   http://localhost:3000/
+
+2. ON ANY OTHER DEVICE (Phone, iPad, Tablet, Laptop on the same Wi-Fi):
+   http://10.20.125.71:3000/
+
+   * Note: Make sure your other device is connected to the same Wi-Fi,
+     open Chrome / Safari / Edge, and enter:
+     http://10.20.125.71:3000/
+
+3. PUBLIC INTERNET TUNNEL (For external networks / mobile data):
+   https://happy-plants-search.loca.lt
+
+
+------------------------------------------------------------------------
+DEMO ACCOUNTS & LOGIN CREDENTIALS:
+------------------------------------------------------------------------
+
+• EXAMINER / LECTURER ACCOUNT:
+  Email:    examiner@aimst.edu.my
+  Password: AimstExaminer2026!
+  Role:     Create/edit exams, monitor sessions, review violation snapshots,
+            mark incidents as reviewed, export PDF & CSV reports.
+
+• STUDENT CANDIDATE ACCOUNT:
+  Email:    student@aimst.edu.my
+  Password: AimstStudent2026!
+  Role:     Identity verification via webcam, liveness check, take exam
+            under lockdown conditions, view instant score & solutions.
+
+(Tip: On the login page, you can also click the 1-Click "Auto-fill" button)
+
+
+------------------------------------------------------------------------
+HOW TO RESTART THE SYSTEM (IF STOPPED):
+------------------------------------------------------------------------
+1. Open PowerShell or Command Prompt
+2. Run:
+   cd C:\Users\Admin\Documents\FYP 2026 online exam proctoring system
+   npm run start
+   (or 'npm run dev' for development mode)
+
+
+------------------------------------------------------------------------
+DOCUMENTATION & VIVA PREPARATION FILES:
+------------------------------------------------------------------------
+• README.md         -> Architecture overview, tech stack, and setup
+• ARCHITECTURE.md   -> 3-Tier architecture & Viva Defense Cheatsheet
+• DEPLOYMENT.md     -> Step-by-step guide to deploy live to Vercel
+• .env.example      -> Complete environment variable reference
+========================================================================
